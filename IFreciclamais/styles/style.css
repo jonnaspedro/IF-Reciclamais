@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    background-color: #d3f5da;
+}
+
+header {
+    background-color: #d3f5da;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.logo h1{
+    margin: 0;
+    color: #000000;
+    font-size: 28px;
+    font-family: "Nunito-ExtraBold";
+}
+
+.logo h3{
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #7b4b2a;
+    font-family: "Nunito-ExtraBold";
+}
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: #388e3c;
+}
+
+a:hover{
+    color: #d3f5da;
+    transition: 0.3s all;
+}
+
+
+
+nav a:hover{
+    color: #f8fdf8;
+    transform: scale(1.1);
+    transition: all 0.45s ease;
+}
+
+
+main{
+    background-color: #388e3c;
+    padding: 40px;
+}
+
+.paragrafo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.texto{
+    max-width: 50%;
+    color: #fffaf0;
+    font-weight: bold;
+    line-height: 1.6;
+    font-family: "Nunito-ExtraBold";
+}
+
+.img-copo{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  
+}
+
+.img-copo img{
+    width: 350px;
+    height: auto;
+    
+}
+
+.rodape{
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 12px;
+    margin-top: 2em;
+}
+
+.rodape a{
+    color: #fffaf0;
+    text-decoration: none;
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  color: #314927;
+  margin-bottom: 0.5em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h1::before {
+  content: "📧";
+  display: block;
+}
+
+
+.form {
+  width: 100%;
+  max-width: 32rem;
+  font-size: 1.125rem;
+   margin: 0 auto;
+    display: block;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: #388e3c;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #388e3c;
+  box-shadow: 0 0 0 3px #388e3c;
+  
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: #388e3c;
+  color: #ffffff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: #388e3c;
+}
+
+p{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+     margin: 0 auto;
+    display: block;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 30%;
+    background-color: #388e3c;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
