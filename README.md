@@ -1,4 +1,4 @@
-# Projeto I F RECICLA+
+# Projeto IF RECICLA+
 Ignorância ou falta de orientação? O desafio de conscientizar sobre o descarte correto do lixo no 
 Instituto Federal de Pernambuco Campus Jaboatão dos Guararapes-PE.
 # Causa Principal
